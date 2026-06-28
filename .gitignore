@@ -1,0 +1,30 @@
+# --- Backend (Python) ---
+backend/venv/
+backend/.env
+__pycache__/
+*.pyc
+*.pyo
+**/.env
+**/.env.local
+**/.env.development.local
+
+# --- Frontend (Node.js) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+*.local
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*.env
